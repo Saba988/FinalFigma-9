@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const FoodCategory = () => {
   const items = [
-    { id: 1, img: "/Home-Section/food1.png", label: "Save 50% on Fast Food" },
-    { id: 2, img: "/Home-Section/food2.png", label: "Delicious Burgers" },
-    { id: 3, img: "/Home-Section/food3.png", label: "Healthy Salads" },
-    { id: 4, img: "/Home-Section/food4.png", label: "Desserts" },
+    { id: 1, img: "/Home-section/food1.png", label: "Save 50% on Fast Food" },
+    { id: 2, img: "/Home-section/food2.png", label: "Delicious Burgers" },
+    { id: 3, img: "/Home-section/food3.png", label: "Healthy Salads" },
+    { id: 4, img: "/Home-section/food4.png", label: "Desserts" },
   ];
 
   return (
@@ -51,7 +51,7 @@ const FoodCategory = () => {
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div className="flex flex-col items-center justify-center bg-[#FF9F0D] p-1 rounded-full">
                   <Image
-                    src="/Home-Section/Hamburger.png"
+                    src="/Home-section/Hamburger.png"
                     alt="Hamburger"
                     width={40}
                     height={40}
@@ -61,7 +61,7 @@ const FoodCategory = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center bg-[#FF9F0D] p-1 rounded-full">
                   <Image
-                    src="/Home-Section/Cookie.png"
+                    src="/Home-section/Cookie.png"
                     alt="Cookie"
                     width={40}
                     height={40}
@@ -71,7 +71,7 @@ const FoodCategory = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center bg-[#FF9F0D] p-1 rounded-full">
                   <Image
-                    src="/Home-Section/Wine.png"
+                    src="/Home-section/Wine.png"
                     alt="Wine"
                     width={40}
                     height={40}
@@ -83,7 +83,7 @@ const FoodCategory = () => {
 
               <div className="mt-6">
                 <Image
-                  src="/Home-Section/experience.png"
+                  src="/Home-section/experience.png"
                   alt="Experience"
                   width={374}
                   height={93}
@@ -95,14 +95,14 @@ const FoodCategory = () => {
             <div className="grid grid-cols-1 md:grid-cols-1 gap-4 md:w-1/2 order-2 md:order-1">
               <div className="flex gap-4">
                 <Image
-                  src="/Home-Section/about1.png"
+                  src="/Home-section/about1.png"
                   alt="lacoste"
                   width={160}
                   height={120}
                   className="w-full h-[120px] object-cover rounded-lg"
                 />
                 <Image
-                  src="/Home-Section/burger.png"
+                  src="/Home-section/burger.png"
                   alt="burger"
                   width={160}
                   height={120}
@@ -112,14 +112,14 @@ const FoodCategory = () => {
 
               <div className="flex gap-4">
                 <Image
-                  src="/Home-Section/burger2.png"
+                  src="/Home-section/burger2.png"
                   alt="burger2"
                   width={160}
                   height={120}
                   className="w-full h-[120px] object-cover rounded-lg"
                 />
                 <Image
-                  src="/Home-Section/about4.png"
+                  src="/Home-section/about4.png"
                   alt="nuggets"
                   width={160}
                   height={120}
@@ -129,14 +129,14 @@ const FoodCategory = () => {
 
               <div className="flex gap-4">
                 <Image
-                  src="/Home-Section/burger3.png"
+                  src="/Home-section/burger3.png"
                   alt="burger3"
                   width={160}
                   height={120}
                   className="w-full h-[120px] object-cover rounded-lg"
                 />
                 <Image
-                  src="/Home-Section/salad.png"
+                  src="/Home-section/salad.png"
                   alt="salad"
                   width={160}
                   height={120}
@@ -157,28 +157,28 @@ const FoodCategory = () => {
 
           <div className="flex flex-wrap justify-center gap-8 hover:cursor-pointer">
             <Image
-              src="/Home-Section/chef1.png"
+              src="/Home-section/chef1.png"
               alt="Chef 1"
               height={391}
               width={312}
               className="w-64 sm:w-72 md:w-80 lg:w-72 h-[391px] object-cover"
             />
             <Image
-              src="/Home-Section/chef2.png"
+              src="/Home-section/chef2.png"
               alt="Chef 2"
               height={391}
               width={312}
               className="w-64 sm:w-72 md:w-80 lg:w-72 h-[391px] object-cover"
             />
             <Image
-              src="/Home-Section/chef3.png"
+              src="/Home-section/chef3.png"
               alt="Chef 3"
               height={391}
               width={312}
               className="w-64 sm:w-72 md:w-80 lg:w-72 h-[391px] object-cover"
             />
             <Image
-              src="/Home-Section/chef4.png"
+              src="/Home-section/chef4.png"
               alt="Chef 4"
               height={391}
               width={312}
@@ -196,7 +196,7 @@ const FoodCategory = () => {
           <div className="flex justify-center">
             <div className="w-full max-w-4xl bg-white">
               <Image
-                src="/Home-Section/client.png"
+                src="/Home-section/client.png"
                 alt="client review"
                 height={350}
                 width={500}
