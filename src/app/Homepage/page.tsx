@@ -30,7 +30,7 @@ function HomePage() {
 
         <div className='mt-[50px] md:mt-0'>
           <Image
-            src="/Home-Section/food.png"
+            src="/Home-section/food.png"
             alt='Hero Image'
             width={700}
             height={500}
@@ -82,7 +82,7 @@ function HomePage() {
         <div className="mt-[50px] md:mt-0 md:w-[50%] grid grid-cols-2 gap-4">
           <div className="col-span-2">
             <Image
-              src="/Home-Section/foodpic1.jpeg"
+              src="/Home-section/foodpic1.jpeg"
               alt="Food Image 1"
               width={672}
               height={400}
@@ -92,7 +92,7 @@ function HomePage() {
 
           <div className="col-span-1">
             <Image
-              src="/Home-Section/foodpic2.jpeg"
+              src="/Home-section/foodpic2.jpeg"
               alt="Food Image 2"
               width={336}
               height={200}
@@ -102,7 +102,7 @@ function HomePage() {
 
           <div className="col-span-1">
             <Image
-              src="/Home-Section/foodpic3.png"
+              src="/Home-section/foodpic3.png"
               alt="Food Image 3"
               width={336}
               height={200}
