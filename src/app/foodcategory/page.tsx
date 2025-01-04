@@ -61,7 +61,7 @@ const FoodCategory = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center bg-[#FF9F0D] p-1 rounded-full">
                   <Image
-                    src="/Home-section/Cookie.png"
+                    src="/Home-section/cookie.png"
                     alt="Cookie"
                     width={40}
                     height={40}
@@ -71,7 +71,7 @@ const FoodCategory = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center bg-[#FF9F0D] p-1 rounded-full">
                   <Image
-                    src="/Home-section/Wine.png"
+                    src="/Home-section/winee.png"
                     alt="Wine"
                     width={40}
                     height={40}
